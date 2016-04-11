@@ -15,12 +15,12 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Breakout extends GraphicsProgram {
-/** Width and height of application window in pixels */
+/** ширина и высота экрана игры */
 	public static final int APPLICATION_WIDTH = 400;
 	public static final int APPLICATION_HEIGHT = 600;
 /** Dimensions of game board (usually the same) */
-	private static final int WIDTH = APPLICATION_WIDTH;
-	private static final int HEIGHT = APPLICATION_HEIGHT;
+	static final int WIDTH = APPLICATION_WIDTH;
+	static final int HEIGHT = APPLICATION_HEIGHT;
 /** Dimensions of the paddle */
 	private static final int PADDLE_WIDTH = 60;
 	private static final int PADDLE_HEIGHT = 10;
